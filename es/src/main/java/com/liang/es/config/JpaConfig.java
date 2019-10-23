@@ -29,7 +29,7 @@ public class JpaConfig {
         return DataSourceBuilder.create().build();
     }
     @Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean(){
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(){
         HibernateJpaVendorAdapter jpaVendor =new HibernateJpaVendorAdapter();
         jpaVendor.setGenerateDdl(false);
         jpaVendor.setShowSql(true);
