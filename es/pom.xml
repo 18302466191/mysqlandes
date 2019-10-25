@@ -58,6 +58,11 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
