@@ -18,7 +18,7 @@ import java.util.Map;
 
 /**
  * web错误 全局配置
- * Created by 瓦力.
+ * Created by LiangBiyin.
  */
 @Slf4j
 @Controller

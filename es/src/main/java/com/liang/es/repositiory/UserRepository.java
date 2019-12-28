@@ -9,7 +9,7 @@ import org.springframework.data.repository.query.Param;
 
 
 /**
- * Created by 瓦力.
+ * Created by .
  */
 public interface UserRepository extends CrudRepository<User, Long> {
 
